@@ -1,0 +1,29 @@
+{
+  "projects": {
+    "default": "tracker-aa86b"
+  },
+  "targets": {
+    "mobileshop-792cc": {
+      "hosting": {
+        "admin": [
+          "tracker-admin"
+        ],
+        "user": [
+          "tracker-user"
+        ]
+      }
+    },
+    "tracker-aa86b": {
+      "hosting": {
+        "admin": [
+          "tracker-admin",
+          "tracker-driver"
+        ],
+        "user": [
+          "tracker-user"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
